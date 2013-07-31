@@ -63,14 +63,14 @@
             this.labelHttpConf.AutoSize = true;
             this.labelHttpConf.Location = new System.Drawing.Point(9, 9);
             this.labelHttpConf.Name = "labelHttpConf";
-            this.labelHttpConf.Size = new System.Drawing.Size(104, 13);
+            this.labelHttpConf.Size = new System.Drawing.Size(135, 17);
             this.labelHttpConf.TabIndex = 1;
             this.labelHttpConf.Text = "Httpd.conf Location:";
             // 
             // buttonAddProject
             // 
             this.buttonAddProject.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonAddProject.Location = new System.Drawing.Point(321, 8);
+            this.buttonAddProject.Location = new System.Drawing.Point(327, 8);
             this.buttonAddProject.Name = "buttonAddProject";
             this.buttonAddProject.Size = new System.Drawing.Size(100, 25);
             this.buttonAddProject.TabIndex = 3;
@@ -81,9 +81,9 @@
             // buttonRemoveProject
             // 
             this.buttonRemoveProject.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonRemoveProject.Location = new System.Drawing.Point(427, 8);
+            this.buttonRemoveProject.Location = new System.Drawing.Point(433, 8);
             this.buttonRemoveProject.Name = "buttonRemoveProject";
-            this.buttonRemoveProject.Size = new System.Drawing.Size(100, 25);
+            this.buttonRemoveProject.Size = new System.Drawing.Size(126, 25);
             this.buttonRemoveProject.TabIndex = 4;
             this.buttonRemoveProject.Text = "Remove Project";
             this.buttonRemoveProject.UseVisualStyleBackColor = true;
@@ -96,7 +96,7 @@
             // buttonBrowseFile
             // 
             this.buttonBrowseFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonBrowseFile.Location = new System.Drawing.Point(427, 3);
+            this.buttonBrowseFile.Location = new System.Drawing.Point(459, 5);
             this.buttonBrowseFile.Name = "buttonBrowseFile";
             this.buttonBrowseFile.Size = new System.Drawing.Size(100, 24);
             this.buttonBrowseFile.TabIndex = 6;
@@ -116,7 +116,7 @@
             this.listViewProjects.Margin = new System.Windows.Forms.Padding(10);
             this.listViewProjects.MultiSelect = false;
             this.listViewProjects.Name = "listViewProjects";
-            this.listViewProjects.Size = new System.Drawing.Size(517, 182);
+            this.listViewProjects.Size = new System.Drawing.Size(549, 178);
             this.listViewProjects.TabIndex = 7;
             this.listViewProjects.UseCompatibleStateImageBehavior = false;
             this.listViewProjects.View = System.Windows.Forms.View.Details;
@@ -170,7 +170,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(537, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(569, 28);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -179,13 +179,13 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItemClick);
             // 
@@ -194,13 +194,13 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(119, 24);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItemClick);
             // 
@@ -210,28 +210,30 @@
             this.panelTop.Controls.Add(this.buttonBrowseFile);
             this.panelTop.Controls.Add(this.labelHttpConf);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTop.Location = new System.Drawing.Point(0, 24);
+            this.panelTop.Location = new System.Drawing.Point(0, 28);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(537, 28);
+            this.panelTop.Size = new System.Drawing.Size(569, 28);
             this.panelTop.TabIndex = 11;
             // 
             // textBoxHttpConfPath
             // 
+            this.textBoxHttpConfPath.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxHttpConfPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxHttpConfPath.Location = new System.Drawing.Point(113, 6);
+            this.textBoxHttpConfPath.Location = new System.Drawing.Point(150, 5);
             this.textBoxHttpConfPath.Name = "textBoxHttpConfPath";
             this.textBoxHttpConfPath.ReadOnly = true;
-            this.textBoxHttpConfPath.Size = new System.Drawing.Size(300, 20);
+            this.textBoxHttpConfPath.Size = new System.Drawing.Size(300, 23);
             this.textBoxHttpConfPath.TabIndex = 7;
             // 
             // panelMiddle
             // 
             this.panelMiddle.Controls.Add(this.listViewProjects);
             this.panelMiddle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMiddle.Location = new System.Drawing.Point(0, 52);
+            this.panelMiddle.Location = new System.Drawing.Point(0, 56);
             this.panelMiddle.Name = "panelMiddle";
             this.panelMiddle.Padding = new System.Windows.Forms.Padding(10);
-            this.panelMiddle.Size = new System.Drawing.Size(537, 202);
+            this.panelMiddle.Size = new System.Drawing.Size(569, 198);
             this.panelMiddle.TabIndex = 12;
             // 
             // panelBottom
@@ -242,13 +244,13 @@
             this.panelBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelBottom.Location = new System.Drawing.Point(0, 254);
             this.panelBottom.Name = "panelBottom";
-            this.panelBottom.Size = new System.Drawing.Size(537, 45);
+            this.panelBottom.Size = new System.Drawing.Size(569, 45);
             this.panelBottom.TabIndex = 13;
             // 
             // FormMain
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(537, 299);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.ClientSize = new System.Drawing.Size(569, 299);
             this.Controls.Add(this.panelMiddle);
             this.Controls.Add(this.panelBottom);
             this.Controls.Add(this.panelTop);
